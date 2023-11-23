@@ -3,6 +3,19 @@ import pandas as pd
 import numpy as np
 from datetime import datetime
 
+def user_details()
+    while True:
+        try:
+            names = input('What can I call you?\nName must be at least 4 characters long: ')
+        except:
+            print('Must be at least 4 characters long')
+        if len(names) >= 4:
+            print('Thank you {}'.format(names)
+            break
+        else:
+            print('Your input is not valid!!')
+    return names
+
 CITY_DATA = { 'Chicago': 'chicago.csv',
               'New York': 'new_york_city.csv',
               'Washington': 'washington.csv' }
@@ -231,6 +244,7 @@ def main():
         city, month, day = get_filters()
         df = load_data(city, month, day)
 
+        user_details()
         time_stats(df)
         station_stats(df)
         trip_duration_stats(df)
