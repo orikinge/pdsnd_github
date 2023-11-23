@@ -11,8 +11,13 @@ In this project, a python program is developed to generate data of the Bikeshare
 This data is filtered based on the user's input and the final data displayed in the end of the program.
 
 ### Files used
-Include the files used
+chicago.csv,
+washington.csv,
+new york.csv.
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
+The following websites were helpful referencing points for this project:
+https://www.w3schools.com/python/default.asp
+https://pandas.pydata.org/docs/
